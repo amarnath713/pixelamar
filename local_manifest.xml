@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+<remote name="xenxynon"
+
+                fetch="https://github.com/xenxynon" />
+
+        <remote name="XS"
+
+                fetch="https://github.com/XenStuff" />
+
+        <remote name="prpr"
+
+                fetch="https://github.com/ImPrashantt" />
+                
+<!-- device trees -->
+
+<project path="device/xiaomi/lavender" name="device_xiaomi_lavender-p" remote="XS" revision="aosp" />
+<project path="vendor/xiaomi/lavender" name="vendor_xiaomi_lavender-p" remote="XS" revision="12" />
+
+<!-- kernel -->
+
+<project path="kernel/xiaomi/lavender" name="android_kernel_xiaomi_lavender-LTO" remote="prpr" revision="eas-caf" clone-depth="1" />
+
+</manifest>
